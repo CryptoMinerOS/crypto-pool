@@ -1,8 +1,8 @@
 {
-    "coin": "Sumokoin",
-    "symbol": "SUMO",
+    "coin": "CoinName",
+    "symbol": "CoinSymbol",
     "coinUnits": 1000000000,
-    "coinDifficultyTarget": 240,
+    "coinDifficultyTarget": 120,
 
     "logging": {
         "files": {
@@ -87,7 +87,7 @@
         },
         "fixedDiff": {
             "enabled": true,
-            "addressSeparator": "."
+            "addressSeparator": "+"
         },
         "shareTrust": {
             "enabled": true,
@@ -123,7 +123,7 @@
         "enabled": true,
         "interval": 30,
         "depth": 60,
-        "poolFee": 1.4,
+        "poolFee": 1.0,
         "devDonation": 0,
         "coreDevDonation": 0.1,
         "extraFeaturesDevDonation":0
@@ -136,7 +136,7 @@
         "port": 8118,
         "blocks": 30,
         "payments": 30,
-        "password": "your_password",
+        "password": "enter_password",
         "trust_proxy_ip": false
     },
 
